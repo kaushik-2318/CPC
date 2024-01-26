@@ -51,7 +51,6 @@ function section() {
               </div>
               <button type="submit" className="btnlogin">Sign Up</button>
               <div className="sign-link">
-                <p>Already have an account? <span className="signIn-link">Sign In</span></p>
                 <p>Already have an account? <span onClick={login} className="signIn-link">Sign In</span></p>
               </div>
             </form>
